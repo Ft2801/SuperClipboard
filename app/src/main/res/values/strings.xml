@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">SuperClipboard</string>
+    <string name="accessibility_service_description">SuperClipboard uses this service to inject large text into text fields of other apps, bypassing Android\'s 1MB Binder transaction limit. No data is collected or transmitted.</string>
+    <string name="notification_channel_name">Text Injection</string>
+    <string name="notification_channel_description">Shows progress when injecting large text into apps</string>
+</resources>

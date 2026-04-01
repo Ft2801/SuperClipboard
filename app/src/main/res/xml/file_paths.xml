@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/xml/file_paths.xml -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cache directory for temporary share files -->
+    <cache-path
+        name="shared_texts"
+        path="shared_texts/" />
+
+    <!-- External cache for additional sharing scenarios -->
+    <external-cache-path
+        name="external_shared_texts"
+        path="shared_texts/" />
+</paths>

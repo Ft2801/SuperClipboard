@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/floating_button.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floating_button_root"
+    android:layout_width="56dp"
+    android:layout_height="56dp"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/fab_icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_clipboard"
+        android:padding="14dp"
+        android:background="@drawable/fab_background"
+        android:contentDescription="SuperClipboard"
+        android:elevation="6dp"
+        android:scaleType="centerInside" />
+
+</FrameLayout>
